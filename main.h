@@ -3,5 +3,8 @@
 
 #include <stdio.h>
 #include <sys/stat.h>
+#include <string.h>
+#include <fcntl.h>
+#include <unistd.h>
 
 #endif

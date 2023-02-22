@@ -4,6 +4,7 @@
  * _myexit - exits the shell
  * @info: Structure containing potential arguments. Used to maintain
  * constant function prototype.
+ *
  * Return: exits with a given exit status
  * (0) if info.argv[0] != "exit"
  */
@@ -65,7 +66,10 @@ int _mycd(info_t *info)
 			chdir((dir = _getenv(info, "OLDPWD=")) ? dir : "/");
 	}
 	else
+	{
 		chdir_ret = chdir(info->argv[1]);
+	}
+
 	if (chdir_ret == -1)
 	{
 		print_error(info, "can't cd to ");
@@ -95,4 +99,3 @@ int _myhelp(info_t *info)
 		_puts(*arg_array); /* temp att_unused workaround */
 	return (0);
 }
-

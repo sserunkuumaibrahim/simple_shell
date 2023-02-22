@@ -62,7 +62,9 @@ int _atoi(char *s)
 			result += (s[i] - '0');
 		}
 		else if (flag == 1)
+		{
 			flag = 2;
+		}
 	}
 
 	if (sign == -1)
@@ -72,4 +74,3 @@ int _atoi(char *s)
 
 	return (output);
 }
-

@@ -56,14 +56,14 @@ Our shell has support for the following built-in commands:
 | exit [n]            | Exit the shell, with an optional exit status, n.                                          |
 | env                 | Print the environment.                                                                    |
 | setenv [var][value] | Set an environment variable and value. If the variable exists, the value will be updated. |
-| alias[name[='value]]| Reads aliases name                                                                        |
+| alias[name[='value']]| Reads aliases name                                                                        |
 | unsetenv [var]      | Remove an environment variable.                                                           |
 | cd [dir]            | Change the directory.                                                                     |
 | help [built-in]     | Read documentation for a built-in.                                                        |
 
 
  ## Installation : Getting HSH
- 
+
 Clone the below repository and compile the files into an executable using the GCC compiler.
 ```
 https://github.com/StellahMbao/simple_shell.git
@@ -88,4 +88,3 @@ ls -la
 ## Contributors :
 * [**Sserunkuuma ibrahim**](https://github.com/sserunkuumaibrahim)
 * [**Nakivumbi Lydia**](https://github.com/LYDIA299)
-

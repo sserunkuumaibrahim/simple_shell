@@ -1,4 +1,4 @@
 # Simple Shell #
 
-This project is about writing a simple UNIX command interpreter having the same
+This project is about writing  simple UNIX command interpreter having the same
 outputs as sh(/bin/sh)
